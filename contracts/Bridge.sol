@@ -16,7 +16,7 @@ import "./utils/Role.sol";
 import "./interface/IFeeCenter.sol";
 import "./utils/TransferHelper.sol";
 
-contract MAPBridgeV2 is ReentrancyGuard, Role, Initializable,Pausable {
+contract MAPBridge is ReentrancyGuard, Role, Initializable,Pausable {
     using SafeMath for uint;
     uint public nonce;
 
